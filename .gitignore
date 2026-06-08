@@ -1,6 +1,10 @@
-data/ 
-venv/ 
-__pycache__/ 
-*.pyc 
-.ipynb_checkpoints/ 
-models/ 
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+models/*
+!models/.gitkeep
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
